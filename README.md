@@ -23,7 +23,24 @@ cd nkustworkspace
 npm install --save-dev @nstudio/xplat
 nx generate app
 選 ionic 、angular
-``` cmd
+```
+
 一個Nx 樣板會建立成功並用 @nstudio/xplat 提供的樣板將 ionic 加入
+
+### 建立 ionic config
+
+``` json
+{
+  "name": "ionic-evs",
+  "integrations": {
+    "capacitor": {},
+    "cordova": {}
+  },
+  "type": "angular",
+  "root": "apps/ionic-evs"
+}
+
+```
+
 
 
